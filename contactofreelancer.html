@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALEB Plataforma de Emprendimiento y Liderazgo</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <h1 class="titulo">CALEB <span>Emprendimiento y Liderazgo</span></h1>
+        </a>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="#">Cursos</a>
+            <a href="publicidad.html">Publicita tu empresa</a>
+            <a href="#">Financiación de Proyectos</a>
+            <a href="#">Buscas Empleo</a>
+        </nav>
+    </div>
+    
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Empieza hacer tus Sueños<span> Realidad</span></h2> 
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 0 1 -2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Pereira, Risaralda</p>
+            </div>
+            <a class="boton" href="contacto.html">Contactar</a>
+        </div> <!-- .contenido-hero --> 
+    </section>
+    
+    <main class="contenedor sombra">
+           
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="formulario" name="formulario-contacto" netlify>
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu Nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Tu Teléfono">
+                        </div>
+
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Tu Email">
+                        </div>
+                
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- .contenedor-campos -->
+
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
+                        <input type="hidden" name="_next" value="https://calebemprendimiento.netlify.app/">
+                        <input type="hidden" name="_capchat" value="false">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+    <footer class="footer">
+        <!--INICIO SECCIÓN CONTENEDOR DE BOTON WHATSAPP-->
+        <div class="container-whatsap">
+            <a href="https://api.whatsapp.com/send?phone=573146494446&text=Cordial%20saludo%3B%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20informaci%C3%B3n." target="_blank">
+              <img class="whatsap" src="img/whatsapp.png"></a>
+        </div>		 
+        <!--CIERRE SECCIÓN CONTENEDOR DE BOTON WHATSAPP-->
+        <p>Todos los derechos reservados. DAMS Gestión de Proyectos</p>
+    </footer>
+
+
+
+</body>
+</html>
